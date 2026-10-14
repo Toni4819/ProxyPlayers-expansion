@@ -28,7 +28,7 @@ public class ProxyPlayersExpansion extends PlaceholderExpansion implements Taska
     private BukkitTask task;
 
     @Override public @NotNull String getIdentifier() { return "proxyplayers"; }
-    @Override public @NotNull String getAuthor() { return "toi"; }
+    @Override public @NotNull String getAuthor() { return "Toni_4819"; }
     @Override public @NotNull String getVersion() { return "1.0"; }
     @Override public boolean persist() { return true; }
 
