@@ -25,7 +25,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-jar {
-    archiveFileName = "ProxyPlayers-expansion.jar"
-}
