@@ -79,9 +79,9 @@ public class ProxyPlayersExpansion extends PlaceholderExpansion implements Taska
     public String onRequest(OfflinePlayer player, @NotNull String params) {
         if (params.equalsIgnoreCase("total")) return String.valueOf(total.get());
 
-        if (params.regionMatches(true, 0, "server:", 0, 8)) {
+        if (params.regionMatches(true, 0, "server:", 0, 7)) {
             int sum = 0;
-            for (String s : params.substring(8).split(",")) {
+            for (String s : params.substring(7).split(",")) {
                 String name = s.trim();
                 if (name.isEmpty()) continue;
                 watched.add(name);
